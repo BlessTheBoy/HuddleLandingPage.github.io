@@ -1,0 +1,18 @@
+@import 'reset';
+
+$Violet : hsl(257, 40%, 49%);
+
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+body{
+    background: $Violet url("/dist/images/bg-desktop.svg") no-repeat fixed center;
+    background-size: cover;
+    height: 100vh;
+
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
