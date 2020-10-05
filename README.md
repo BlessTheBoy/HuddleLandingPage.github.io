@@ -1,7 +1,7 @@
 # HuddleLandingPage.github.io
  A beautiful responsive landing page built with html and scss
 
- [![](https://raw.githubusercontent.com/BlessTheBoy/HuddleLandingPage.github.io/master/design/desktop-design.jpg)](https://blesstheboy.github.io/HuddleLandingPage.github.io/)
+ [![](https://github.com/BlessTheBoy/HuddleLandingPage.github.io/blob/main/design/desktop-design.jpg?raw=true)](https://blesstheboy.github.io/HuddleLandingPage.github.io/)
 
 # Huddle Landing Page Challenge (FEDP 03)
 
