@@ -118,6 +118,10 @@ body footer .frontendLink {
   color: white;
 }
 
+body footer .frontendLink:hover {
+  color: #fd9792;
+}
+
 body .fab {
   color: white;
   margin: auto;

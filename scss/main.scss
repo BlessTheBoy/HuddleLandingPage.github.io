@@ -120,6 +120,10 @@ body{
 
         .frontendLink{
             color: white;
+
+            &:hover{
+                color: #fd9792;
+            }
         }
     }
 
