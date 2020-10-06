@@ -13,7 +13,11 @@ a {
 }
 
 /*font-family: 'Open Sans', sans-serif;
-font-family: 'Poppins', sans-serif; */
+font-family: 'Poppins', sans-serif; 
+255,255,0
+rgba(253,151,146, 0)
+#fd9792
+*/
 body {
   background: #674baf url("/dist/images/bg-desktop.svg") no-repeat fixed center;
   background-size: cover;
@@ -74,7 +78,7 @@ body main .main-section__button {
 
 body main .main-section .pulse {
   cursor: pointer;
-  box-shadow: 0 0 0 rgba(253, 151, 146, 0.4);
+  box-shadow: 0 0 0 rgba(255, 255, 0, 0.4);
   animation: pulse 1.5s infinite;
 }
 
@@ -85,13 +89,13 @@ body main .main-section .pulse:hover {
 
 @keyframes pulse {
   0% {
-    box-shadow: 0 0 0 0 rgba(253, 151, 146, 0.4);
+    box-shadow: 0 0 0 0 rgba(255, 255, 0, 0.4);
   }
   70% {
-    box-shadow: 0 0 0 10px rgba(253, 151, 146, 0);
+    box-shadow: 0 0 0 10px rgba(255, 255, 0, 0);
   }
   100% {
-    box-shadow: 0 0 0 0 rgba(253, 151, 146, 0);
+    box-shadow: 0 0 0 0 rgba(255, 255, 0, 0);
   }
 }
 
@@ -100,9 +104,18 @@ body footer {
   margin-bottom: 20px;
 }
 
-body footer img {
+body footer svg {
   width: 100px;
   margin: 0px auto -10px;
+  fill: #fff;
+}
+
+body footer svg:hover {
+  fill: #fd9792;
+}
+
+body footer .frontendLink {
+  color: white;
 }
 
 body .fab {
@@ -141,6 +154,10 @@ body ul li:hover .fab {
 }
 
 @media screen and (max-width: 700px) {
+  body {
+    background: #674baf url("/dist/images/bg-mobile.svg") no-repeat top;
+    background-size: contain;
+  }
   body header {
     padding: 40px 0 0 40px;
     margin: 0px 0 0px -30px;
@@ -154,7 +171,7 @@ body ul li:hover .fab {
     flex-direction: column;
   }
   body main .big-image {
-    margin: 0px 0 20px 0px;
+    margin: 40px 20px 40px 20px;
   }
   body main .big-image img {
     width: 72vw;
@@ -178,7 +195,7 @@ body ul li:hover .fab {
   body footer {
     font-size: .8rem;
   }
-  body footer img {
+  body footer svg {
     width: 50px;
     margin: 0px auto -3px;
   }
