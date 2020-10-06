@@ -19,7 +19,8 @@ rgba(253,151,146, 0)
 #fd9792
 */
 body {
-  background: #674baf url("/dist/images/bg-desktop.svg") no-repeat fixed center;
+  background: url("../images/bg-desktop.svg") no-repeat fixed center;
+  background-color: #674baf;
   background-size: cover;
   height: 100vh;
   font-family: 'Open Sans', sans-serif;
@@ -104,13 +105,13 @@ body footer {
   margin-bottom: 20px;
 }
 
-body footer svg {
+body footer .svg {
   width: 100px;
   margin: 0px auto -10px;
   fill: #fff;
 }
 
-body footer svg:hover {
+body footer .svg:hover {
   fill: #fd9792;
 }
 
@@ -159,7 +160,7 @@ body ul li:hover .fab {
 
 @media screen and (max-width: 700px) {
   body {
-    background: #674baf url("/dist/images/bg-mobile.svg") no-repeat top;
+    background: #674baf url("../images/bg-mobile.svg") no-repeat top;
     background-size: contain;
   }
   body header {
@@ -199,7 +200,7 @@ body ul li:hover .fab {
   body footer {
     font-size: .8rem;
   }
-  body footer svg {
+  body footer .svg {
     width: 50px;
     margin: 0px auto -3px;
   }

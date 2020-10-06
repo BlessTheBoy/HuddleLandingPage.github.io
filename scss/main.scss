@@ -11,7 +11,8 @@ rgba(253,151,146, 0)
 */
 
 body{
-    background: $Violet url("/dist/images/bg-desktop.svg") no-repeat fixed center;
+    background: url("../images/bg-desktop.svg") no-repeat fixed center;
+    background-color: $Violet;
     background-size: cover;
     height: 100vh;
     font-family: 'Open Sans', sans-serif;
@@ -108,7 +109,7 @@ body{
     footer{
         justify-content: center;
         margin-bottom: 20px;
-        svg{            
+        .svg{            
             width: 100px;
             margin: 0px auto -10px;
             fill: #fff;
@@ -167,7 +168,7 @@ body{
     
 
     @include mobile{
-        background: $Violet url("/dist/images/bg-mobile.svg") no-repeat top;
+        background: $Violet url("../images/bg-mobile.svg") no-repeat top;
         background-size: contain;
 
         header {                    
@@ -214,7 +215,7 @@ body{
 
         footer{
             font-size: .8rem;
-            svg{            
+            .svg{            
                 width: 50px;
                 margin: 0px auto -3px;
             }
